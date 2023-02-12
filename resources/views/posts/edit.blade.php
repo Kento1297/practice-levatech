@@ -10,11 +10,11 @@
             @csrf
             <div class="title">
                 <h2>Title</h2>
-                <input type="text" name="post[title]" placeholder="タイトル" value={{old('post.title')}}>
+                <input type="text" name="post[title]" placeholder="タイトル"/>
             </div>
             <div class="body">
                 <h2>Body</h2>
-                <textarea name="post[body]" placeholder="今日も1日お疲れさまでした。">{{old('post.body')}}</textarea>
+                <textarea name="post[body]" placeholder="今日も1日お疲れさまでした。"></textarea>
             </div>
             <input type="submit" value="store"/>
         </form>
